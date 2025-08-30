@@ -4,16 +4,14 @@ A beautiful and user-friendly web interface for the Blood Test Analyzer applicat
 
 ## 🚀 Quick Start
 
-### Option 1: Use the Startup Script (Recommended)
+### Install dependencies
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 
-# Start both backend and frontend
-python start_app.py
 ```
 
-### Option 2: Manual Start
+### Start
 ```bash
 # Terminal 1: Start the FastAPI backend
 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
